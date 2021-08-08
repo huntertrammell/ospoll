@@ -2,7 +2,7 @@
     <nav class="navbar navbar-expand-lg navbar-dark bg-ospoll">
         <div class="container-fluid px-5">
             <router-link class="navbar-brand" to="/">
-                <img alt="Vue logo" src="../assets/logo.png" width="150" height="auto"/>
+                <img alt="Vue logo" src="../assets/logo.png" width="150" height="50"/>
             </router-link>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>

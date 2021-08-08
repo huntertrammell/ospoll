@@ -6,7 +6,7 @@
        <div class="offset-lg-3 col-lg-6 col-md-12 d-flex justify-content-center align-items-center">
          <div>
           <h1 class="hero_headline visually-hidden">ospoll</h1>
-          <img alt="ospoll Logo" src="../assets/logo.png" width="700" height="auto"/>
+          <img alt="ospoll Logo" src="../assets/logo.png" width="700" height="233"/>
           <p class="hero_content mb-4">Open Source Developer Surveys</p>
           <router-link class="btn btn-gradient" to="/surveys">GET STARTED</router-link>
          </div>
@@ -25,7 +25,7 @@
          </div>
        </div>
        <div class="col-lg-6 col-md-12 px-lg-5 px-2 pb-lg-5 pb-0 d-flex justify-content-center align-items-center">
-         <img src="@/assets/home_about.svg" alt="SVG illustration from UnDraw depicting different user accounts" class="img-fluid">
+         <img src="@/assets/home_about.svg" alt="SVG illustration from UnDraw depicting different user accounts" class="img-fluid" width="524" height="435">
        </div>
      </div>
    </div>
@@ -63,6 +63,7 @@ export default {
   @media(max-width: 992px){
     img {
       width: 100%;
+      height: auto;
       display: block;
     }
   }
